@@ -1,6 +1,14 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModMail", "ModMail\ModMail.csproj", "{14158E6A-EB46-477A-AE68-B5C9612F4C8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workflows", "Workflows", "{07FC7CC1-5DE7-40AE-A8E4-68A229012643}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\docker-release.yml = .github\workflows\docker-release.yml
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+		.github\workflows\prerelease.yml = .github\workflows\prerelease.yml
+		.github\workflows\release.yml = .github\workflows\release.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
